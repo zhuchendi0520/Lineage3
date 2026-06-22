@@ -67,7 +67,7 @@ gkdew <- function(h, alpha = 0.5, p = max(h), weights, from, to, skipself = T) {
 # Effective genome size (H37RV size with 10% masked)
 effsize <- 3969000
 # Mutation rate per site per year
-mu <- 4.6e-8
+mu <- 2.86e-8
 # 10y timescale, recent epidemic
 timescale <- 10
 bandwidth <- thd.bandwidth(timescale, effsize, mu, 1/2)
